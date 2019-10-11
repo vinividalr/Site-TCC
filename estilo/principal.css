@@ -1,0 +1,669 @@
+﻿body{
+	font-family: Verdana;
+	background-color: #EEE;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#cabecalho {
+	text-align: center;
+}
+
+#menu {
+	margin-left: 150px;
+	text-align: justify;
+	float: left;
+}
+
+#pformopcoes {
+	color:#0066FF;
+	font-weight: bold;
+	
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+ul li a:hover {
+	border-bottom: solid 2px;
+}
+
+ul li {	
+	display: block;
+	padding: 12px;
+	border: solid 1px;
+	width: 282px;
+}
+
+.redessociais:hover {
+	-webkit-transform:rotate(40deg);
+	-moz-transform:rotate(40deg);
+	transition: 1s;
+}
+
+
+
+.logotipo {
+	text-align: center;
+}
+
+
+.icones {
+	text-align: center;
+	clear: both;
+}
+
+/*Home*/
+
+#resumohome {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+}
+
+#transicaohome {
+	border: solid 1px;
+	margin-left: 180px;
+}
+
+/*Empresa*/
+
+#resumoempresa {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+}
+
+#empresafoto {
+	margin-left: 115px;
+}
+
+/*Administração de Condomínio*/
+
+#admcond {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;;
+	float: right;
+	clear: right;
+}
+
+#desenho {
+	margin-bottom: 0px;
+	margin-right: 13px;	
+	float: left;
+	clear: left;
+}
+
+#setores {
+	padding-right: 0px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+/*Assesoria em Autogestão*/
+
+#assessoriaemautogestão {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+#autogestao {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+/*Serviços*/
+
+#serviçossoftware {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+	
+}
+
+#celular {
+	margin-bottom: 0px;
+	margin-right: 13px;	
+	float: left;
+	clear: left;
+}
+
+#serviçosdepartamentos {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+#trabalho {
+	margin-bottom: 0px;
+	margin-right: 13px;	
+	float: left;
+	clear: left;
+}
+
+/*Ocorrência*/
+
+#ocorrencia {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+
+
+/*Cadastro de Moradores*/
+
+#cadastromoradores {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+#pdf {
+	margin-left: 390px;
+}
+
+/*Dicas*/
+
+#dicas {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+#dicas2 {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+.dicas3 ul li {
+	border: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#fotodicas {
+	margin-left: -40px;
+}
+
+/*Orçamento*/
+
+#orcamento {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+/*Localização*/
+
+#localização {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+/*Contato*/
+
+#contato {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+#tabcontato {
+	margin-right: 13px;
+}
+
+#opcoes {
+	margin-left: 46px;
+}
+
+
+
+/*Formulário*/
+
+.enviar {
+	background-color: #CDC9C9;
+	border: none;
+	border-radius: 30px;
+	font-size: 1.2em;
+	color: #0066FF;
+	cursor: pointer;
+}
+
+.formulario label {
+	color: #0066FF;
+	font-weight: bold;
+}
+
+
+.formulario fieldset {	
+	border: none;
+	border-radius: 15px 15px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, Verdana;
+	color: #6b1a0d;
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+.formulario fieldset legend {	
+	color: #0066FF;
+	font-weight: bold;	
+	padding: 10px;
+	margin-left: -13px;
+	font-size: 20px;
+	 
+
+	
+}
+
+.formulario fieldset label {
+	display: block;
+	margin-top: 7px;
+	float: left;
+	width: 115px;
+	font-size: 17px;
+	margin-bottom: 10px;
+	}
+
+.formulario fieldset input[type="text"], 
+.formulario fieldset input[type="email"] {
+	border: none;
+	border-bottom: #0066FF solid 2px;
+	font-size: .8em;
+	color: #0066FF;
+	width: 600px;
+	font-family: Arial, Helvetica, Verdana;
+	margin-bottom: 10px;
+	   
+	
+}
+
+.formulario fieldset textarea {
+	width: 520px;
+	height: 100px;
+	font-size: .6em;
+	border: #0066FF solid 2px;
+	font-family: Arial, Helvetica, Verdana;
+	padding-top: 20px;
+    padding-left: 20px; 	
+	
+}
+
+.formulario fieldset label.labelSimples {
+	display: inline;
+	float: none;
+	font-family: Arial, Helvetica, Verdana;
+	margin-bottom: 10px;
+	
+		
+}
+
+.formulario {
+	margin-right: -174px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+	
+
+h1, h2, h3, h4, h5 {
+	border: solid 1px;
+	text-align: center;
+	background-color: #b5cdf2;
+}
+
+#obrigado {
+	padding-right: 190px;
+	text-align: justify;
+	width: 830px;
+	float: right;
+	clear: right;
+}
+
+footer {
+	text-align: center;
+	clear:both;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #CDC9C9;
+    height: 13px;		
+}
+
+/****** tamanho pequeno */
+@media screen and (max-width: 419px) {
+	body{
+	width: 250px;
+	font-size: 7px;
+	}
+	
+	/* home */
+	
+	.logotipo {
+	width: 89%;
+	text-align: left;
+	}
+	
+	#menu {
+	margin-left: -25px;
+	text-align: center;
+	float: left;
+	}
+	
+	ul li {	
+	width: 200px;
+	}
+	
+	#resumohome {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#transicaohome {
+	width: 90%;
+	margin-left: 10px;
+	}
+	
+	#homeempresafoto {
+	width: 100%;
+	text-align: left;
+	margin-left: 35px;
+	}
+	
+	.icones {
+	width: 100%;
+	margin-left: 0px;
+	}
+	
+	.redessociais {
+	width: 10%;
+	}
+	
+	footer {
+	width: 270px;
+	}
+	
+	/* Empresa */
+	
+	#resumoempresa {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}	
+	
+	#empresafoto {
+	width: 100%;
+	text-align: left;
+	margin-left: 0px;
+	}
+	
+	/* admcond */
+	
+	#desenho {
+	width: 50%;
+	}
+	
+	#admcond {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#setores {
+	padding-right: 0px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	/* Acessoria em Autogestão */
+	
+	#assessoriaemautogestão {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#autogestao {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#olautogestao {
+	margin-left: -28px;
+	}
+	
+	/* Serviços */
+	
+	#serviçossoftware {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#celular {
+	width: 50%;
+	margin-left: -30px;
+	}
+	
+	#serviçosdepartamentos {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#trabalho {
+	width: 50%;
+	margin-left: -30px;
+	}
+	
+	/* Ocorrência */
+	
+	#ocorrencia {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#dados{
+	margin-right: 115px;
+	width: 5%;
+	height: 5%;
+	}
+	
+	#dados label {
+	font-size: 8px;
+	width: 60px;
+	}
+	
+	#dados input {
+	font-size: 8px;
+	width: 100%;
+	height: 5%;
+	}
+	
+	#dados textarea {
+	font-size: 8px;
+	width: 80%;
+	}
+	
+	#tabocorrencia {
+	text-align: justify;
+	font-size: 3px;
+	}
+	
+	/* Cadastro de Moradores */
+	
+	#cadastromoradores {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}	
+	
+	#pdf {
+	width: 30%;
+	margin-left: 85px;
+	}
+	
+	/* Dicas */
+	
+	#dicas {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}	
+	
+	#fotodicas {
+	width: 100%;
+	margin-left: 0px;
+	}
+	
+	#dicas2 {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	.dicas3 ul li {
+	margin-left: -50px;
+	}
+	
+	/* Orçamento */
+
+	
+	#orcamento {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	#dadosorc{
+	margin-right: 115px;
+	width: 5%;
+	height: 5%;
+	}
+	
+	#dadosorc label {
+	font-size: 8px;
+	width: 60px;
+	}
+	
+	#dadosorc input {
+	font-size: 8px;
+	width: 100%;
+	height: 5%;
+	}
+	
+	#dadosorc textarea {
+	font-size: 8px;
+	width: 80%;
+	}
+	
+	#taborcamento {
+	text-align: justify;
+	font-size: 3px;
+	}
+	
+	/* Obrigado */
+	
+	#obrigado {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	/* Localização */
+	
+	#localização {
+	padding-right: 10px;
+	text-align: justify;
+	width: 225px;
+	}
+	
+	iframe {
+	width: 225px;
+	}
+	
+	/* Contato */
+	
+	#contato {
+	width: 225px;
+	margin-right: -180px;
+}	
+
+	#dadoscontato{
+	margin-right: -60px;
+	width: 5%;
+	height: 5%;
+	}
+	
+	#dadoscontato label {
+	font-size: 8px;
+	width: 60px;
+	}
+	
+	#dadoscontato input {
+	font-size: 8px;
+	width: 100%;
+	height: 5%;
+	}
+	
+	#dadoscontato textarea {
+	font-size: 8px;
+	width: 80%;
+	}
+	
+	#tabcontato {
+	text-align: justify;
+	font-size: 3px;
+	}
+	
+	#pformopcoes {
+	text-align: justify;
+	font-size: 8px;	
+	}
+	
+	#opcoes {
+	margin-left: 0px;
+	}
+}
+

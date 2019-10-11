@@ -1,0 +1,231 @@
+﻿body{
+	font-family: Verdana;
+	background-color: #EEE;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#cabecalho {
+	text-align: center;
+}
+
+#menu {
+	margin-left: 150px;
+	text-align: justify;
+	float: left;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+ul li a:hover {
+	border: solid 2px;
+}
+
+ul li {	
+	display: block;
+	padding: 10px;
+}
+
+.redessociais:hover {
+	-webkit-transform:rotate(40deg);
+	-moz-transform:rotate(40deg);
+	transition: 1s;
+}
+
+
+
+.logotipo {
+	text-align: center;
+}
+
+
+#redessociais {
+	text-align: center;
+	clear: both;
+}
+
+/*Home*/
+
+#resumohome {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+}
+
+/*Empresa*/
+
+#resumoempresa {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+}
+
+#empresafoto {
+	text-align: center;
+}
+
+/*Administração de Condomínio*/
+
+#admcond {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+#desenho {
+	margin-bottom: 0px;
+	margin-right: 13px;	
+	float: left;
+	clear: left;
+}
+
+footer {
+	text-align: center;
+	clear:both;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+/*Assesoria em Autogestão*/
+
+#assessoriaemautogestão {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+#autogestao {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+/*Cadastro de Moradores*/
+
+#cadastromoradores {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+#pdf {
+	text-align: center;
+}
+
+/*Dicas*/
+
+#dicas {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+#dicas2 {
+	padding-right: 150px;
+	text-align: justify;
+	width: 850px;
+	float: right;
+	clear: right;
+}
+
+#fotodicas {
+	margin-left: 0px;
+}
+
+/*Orçamento*/
+
+#envia {
+	background-color: #0066FF;
+	background: linear-gradient(to bottom,  #6b1516 0%,#c0262c 30%,#c0262c 70%,#6b1516 100%);
+	border: none;
+	border-radius: 30px;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 10px 25px;
+	margin: 20px 0;
+	text-shadow: 2px 2px 5px #000;
+	cursor: pointer;
+	margin-left: 500px;
+}
+
+#orcamento fieldset {	
+	border: #0066FF solid 2px;
+	border-radius: 15px 15px;
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, Verdana;
+	color: #6b1a0d;
+	
+	
+}
+
+#orcamento fieldset legend {	
+	color: #0066FF;
+	font-weight: bold;	
+	padding: 10px;
+	margin-left: -13px;
+	font-size: 20px;
+	 
+
+	
+}
+
+#orcamento fieldset label {
+	display: block;
+	margin-top: 7px;
+	float: left;
+	width: 115px;
+	font-size: 17px;
+	margin-bottom: 10px;
+	}
+
+#orcamento fieldset input[type="text"], 
+#orcamento fieldset input[type="email"] {
+	border: none;
+	border-bottom: #0066FF solid 2px;
+	font-size: .8em;
+	color: #0066FF;
+	width: 600px;
+	font-family: Arial, Helvetica, Verdana;
+	margin-bottom: 10px;
+	   
+	
+}
+
+#orcamento fieldset textarea {
+	width: 520px;
+	height: 100px;
+	font-size: .6em;
+	border: #0066FF solid 2px;
+	font-family: Arial, Helvetica, Verdana;
+	padding-top: 20px;
+    padding-left: 20px; 	
+	
+}
+
+#orcamento fieldset label.labelSimples {
+	display: inline;
+	float: none;
+	font-family: Arial, Helvetica, Verdana;
+	margin-bottom: 10px;
+	
+		
+}
+
+
